@@ -7,6 +7,7 @@ const API = process.env.REACT_APP_API_URL;
 
 export default function Snacks() {
   const [snacks, setSnacks] = useState([]);
+ 
   useEffect(() => {
     axios
       .get(`${API}/snacks`)
@@ -17,6 +18,7 @@ export default function Snacks() {
       .catch((err) => {
         console.log(err);
       });
+
   }, [snacks]);
 
   return (
