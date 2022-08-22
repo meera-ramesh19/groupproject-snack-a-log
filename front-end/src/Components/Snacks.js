@@ -9,11 +9,16 @@ export default function Snacks() {
   const [snacks, setSnacks] = useState([]);
  
   useEffect(() => {
-    
-    axios.get(`${API}/snacks`).then((res) => {
-      setSnacks(res.data.payload);
-      console.log(snacks);
-    });
+    axios
+      .get(`${API}/snacks`)
+      .then((res) => {
+        setSnacks(res.data.payload);
+        console.log('this is', snacks);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
   }, [snacks]);
 
   return (
@@ -25,9 +30,6 @@ export default function Snacks() {
         })}
       </section>
       <br />
-      <button className='back-button'>
-        <Link to={'/'}>Back</Link>
-      </button>
     </div>
   );
 }
