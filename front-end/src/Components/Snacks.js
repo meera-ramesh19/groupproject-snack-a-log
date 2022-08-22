@@ -10,9 +10,9 @@ export default function Snacks() {
   useEffect(() => {
     axios.get(`${API}/snacks`).then((res) => {
       setSnacks(res.data.payload);
-      
+      console.log('this is', snacks)
     });
-  }, [snacks]);
+  }, []);
 
   return (
     <div className='snacks'>
