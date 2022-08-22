@@ -8,14 +8,16 @@ const API = process.env.REACT_APP_API_URL;
 export default function Snacks() {
   const [snacks, setSnacks] = useState([]);
   useEffect(() => {
-    axios.get(`${API}/snacks`).then((res) => {
-      setSnacks(res.data.payload);
-      console.log('this is', snacks)
-    })
-  .catch((err) => {
-    console.log(err)
-  })
-  }, [snacks]);
+    axios
+      .get(`${API}/snacks`)
+      .then((res) => {
+        setSnacks(res.data.payload);
+        console.log('this is', snacks);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
 
   return (
     <div className='snacks'>
