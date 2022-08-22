@@ -17,7 +17,7 @@ export default function Snacks() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [snacks]);
 
   return (
     <div className='snacks'>
