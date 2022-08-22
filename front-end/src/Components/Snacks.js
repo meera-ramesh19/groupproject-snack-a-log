@@ -12,7 +12,7 @@ export default function Snacks() {
       setSnacks(res.data.payload);
       console.log('this is', snacks)
     });
-  }, []);
+  }, [snacks]);
 
   return (
     <div className='snacks'>
