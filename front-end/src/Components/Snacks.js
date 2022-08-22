@@ -28,9 +28,6 @@ export default function Snacks() {
         })}
       </section>
       <br />
-      <button className='back-button'>
-        <Link to={'/'}>Back</Link>
-      </button>
     </div>
   );
 }
