@@ -18,7 +18,7 @@ export default function Snacks() {
     <div className='snacks'>
       <h1 className='title-snacks'>Snacks</h1>
       <section className='all-snacks'>
-        {snacks.map((snack) => {
+        {snacks?.map((snack) => {
           return <Snack key={snack.id} snack={snack} />;
         })}
       </section>
