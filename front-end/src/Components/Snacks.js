@@ -11,7 +11,10 @@ export default function Snacks() {
     axios.get(`${API}/snacks`).then((res) => {
       setSnacks(res.data.payload);
       console.log('this is', snacks)
-    });
+    })
+  .catch((err) => {
+    console.log(err)
+  })
   }, [snacks]);
 
   return (
