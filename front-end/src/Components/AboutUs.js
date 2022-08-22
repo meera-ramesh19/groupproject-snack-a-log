@@ -37,7 +37,7 @@ export default function AboutUs() {
           I am passionate about learning and curiosity has been a part of me forever. My experiences in and outside of working with nonprofits in addition to design consulting, have given me the analytical skills and curiosity to bring in creative problem solving when learning and using code.</p>
           <div className="links">
             <a className="github" href="https://github.com/meera-ramesh19">
-             <img align="center" src={GitHubMark64}></img>
+             <img align="center" alt="" src={GitHubMark64}></img>
             </a>
             <a className="github" href="https://www.linkedin.com/in/meeraramesh/" target="blank">
               <img
@@ -72,9 +72,8 @@ export default function AboutUs() {
             and enjoys the little small things in life like pizza.🍕
           </p>
           <div className="links">
-            <img ></img>
             <a className="github" href="https://github.com/named-josie">
-            <img align="center" src={GitHubMark64}></img>
+            <img align="center"alt="" src={GitHubMark64}></img>
             </a>
             <a className="github" href="https://www.linkedin.com/in/joss-pascasio/" target="blank">
               <img
