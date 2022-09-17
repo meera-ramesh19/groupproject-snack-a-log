@@ -1,5 +1,34 @@
 # Full Stack Application Pair Project
 
+---
+
+[https://user-images.githubusercontent.com/46873861/190864503-43293b68-1d07-482f-b2ed-4b248ca06d2b.mp4](
+https://user-images.githubusercontent.com/46873861/190864503-43293b68-1d07-482f-b2ed-4b248ca06d2b.mp4)
+
+---
+<img src='snackshome.png' alt="info of ghibli"/>
+
+---
+
+<img src="snackslist.png" alt="info of ghibli movies"/>
+
+---
+
+<img src="snacksnew.png" alt="info of ghibli characters"/>
+
+---
+
+<img src="snacksadded.png" alt="info of ghibli locations"/>
+
+---
+
+<img src="snacksediting.png" alt="info of ghibli vehicles"/>
+
+---
+
+<img src="snacksedit.png" alt="info of ghibli species"/>
+
+---
 ## Helpful Links
 
 _You and your partner should include links or images of the following resources in this section:_
@@ -135,6 +164,9 @@ It is recommended that you open a new terminal tab that will be dedicated to run
 ```
 REACT_APP_API_URL=http://localhost:3333
 ```
+
+
+
 
 - `npm install` - install npm packages listed in `package.json`
 - `npm start` - make sure your React app can start
